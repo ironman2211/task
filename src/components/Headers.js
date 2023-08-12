@@ -7,7 +7,8 @@ const Headers = () => {
   return (
     <div className='bg-gray-900 h-20 w-full text-white flex items-center justify-between p-10'>
       <h1 className='text-xl tracking-widest'>
-        TASK
+      <Link to='/' className='hover:text-gray-400'>LINK</Link>
+
       </h1>
       <ul>
         <li className='inline-block mr-5' >
